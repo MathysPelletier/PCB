@@ -1,0 +1,10 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ESP32-WROOM-32UE-N8")(type "KiCad")(uri "${KIPRJMOD}/Projet_librairies/ESP32_WROOM_32UE_N8/KiCADv6/CP2102N-A02-GQFN28.kicad_sym")(options "")(descr ""))
+  (lib (name "CP2102N-A02-GQFN28")(type "KiCad")(uri "${KIPRJMOD}/Projet_librairies/CP2102N_A02_GQFN28/KiCADv6/2025-01-27_14-22-55.kicad_sym")(options "")(descr ""))
+  (lib (name "USBC2171790001")(type "KiCad")(uri "${KIPRJMOD}/Projet_librairies/USBC2171790001/2171790001.kicad_sym")(options "")(descr ""))
+  (lib (name "PH1-16-UA")(type "KiCad")(uri "${KIPRJMOD}/Projet_librairies/PH1_16_UA/KiCADv6/2025-01-28_02-44-22.kicad_sym")(options "")(descr ""))
+  (lib (name "SP0503BAHTG")(type "KiCad")(uri "${KIPRJMOD}/Projet_librairies/SP0503BAHTG/KiCADv6/2025-01-28_16-06-39.kicad_sym")(options "")(descr ""))
+  (lib (name "RMCF0603JT10K0")(type "KiCad")(uri "${KIPRJMOD}/Projet_librairies/RMCF0603JT10K0/KiCADv6/2025-01-28_16-52-38.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4105")(type "KiCad")(uri "${KIPRJMOD}/Projet_librairies/USB4105/USB4105.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,174 @@
+(footprint "PTS636_SK_MODIF"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "SW51"
+		(at -2.032 2.0066 180)
+		(layer "F.SilkS")
+		(uuid "2707b017-304d-4111-b4dd-b4237e28128d")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Value" "Reset"
+		(at 0 -2.25 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c008bb53-02b0-4c00-a765-80909229d602")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Projet_librairies:PTS636_SK"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ca9c676-4e7b-469f-b880-471836ccec8b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82d67430-e1a8-4f27-95f5-9254f2dc9423")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Single Pole Single Throw (SPST) switch"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1410bb8d-21d2-4915-9e5f-82ae0f6b3023")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "part_number" "PTS636 SK43 SMTR LFS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a0b0f4d-e87e-4361-92d7-6e3df5740cc5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.6134 -1.8542)
+		(end 5.588 -1.8542)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e3150a5f-b574-45bb-a329-f13d4b1882f7")
+	)
+	(fp_line
+		(start -5.6134 0)
+		(end -5.6134 -1.8542)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2cf80c76-cdb8-41d9-bf2f-ef176288731a")
+	)
+	(fp_line
+		(start -5.6134 0)
+		(end -5.6134 1.8542)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b6a20928-671b-45f2-909b-c6f2f830ddb5")
+	)
+	(fp_line
+		(start -5.6134 1.8542)
+		(end 5.59998 1.854483)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0eb39460-5c23-41ca-ae22-0a5dacad4a8f")
+	)
+	(fp_line
+		(start 5.599999 1.25)
+		(end 5.59998 1.854483)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "59caf6bd-c480-43a2-83e8-3b161f0e1720")
+	)
+	(fp_line
+		(start 5.599999 1.25)
+		(end 5.600089 -1.853822)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "59fe669e-f4ba-4fb9-ba70-43105837a7b9")
+	)
+	(fp_line
+		(start 5.600089 -1.853822)
+		(end 5.5372 -1.8542)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9f5bc7d5-192f-4b2b-97a0-e03abea43ce8")
+	)
+	(fp_rect
+		(start -5.6896 -1.9558)
+		(end 5.6896 1.9558)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "f38b28e0-445d-4a61-bb08-ce9aef7ba115")
+	)
+	(pad "1" smd rect
+		(at -4.099999 0)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "af5a674d-1d48-4e1c-995c-2c964aad6064")
+	)
+	(pad "2" smd rect
+		(at 4.099999 0)
+		(size 2 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "7256a733-20e8-4a40-a3f2-cc828ba295e2")
+	)
+)
